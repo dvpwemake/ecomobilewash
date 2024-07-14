@@ -1,642 +1,474 @@
-<!--
-
-=========================================================
-* EcoMobileWash - v1.0.0
-=========================================================
-
-* Copyright 2023 EcoMobileWash MIT LICENSE
-
-* Coded by EcoMobileWash
-
-=========================================================
--->
 <!DOCTYPE html>
 <html lang="en">
 
-<head> 
+<head>
+    <!-- Primary Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>EcoMobileWash Eco Mobile Wash - Eco Friendly Mobile Car Wash Service in San Diego. We Come to You.</title>
+    <meta name="description" content="Eco Mobile Wash, we come to your location, and bring 100% hand-crafted eco-friendly detailing service to your cars, RVs, motorcycles, boats, and airplanes. So you don't have to leave your home or office and spend precious time with your family and on business.">
+    <meta name="keywords" content="mobile, car, wash, detail, San Diego, car detailing San Diego, eco-friendly, car wash San Diego, mobile detailing, luxury car detailing, boat detailing, golf cart detailing, car washing services San Diego, professional car wash San Diego, eco-friendly mobile car wash, car care San Diego">
+    <meta name="author" content="EcoMobileWash.com">
+    <link rel="canonical" href="https://EcoMobileWash.com">
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2Z8ZZ7MP8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./assets/img/favicon/safari-pinned-tab.svg" color="#ffffff">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
 
-  gtag('config', 'G-W2Z8ZZ7MP8');
-</script>
+    <!-- Fontawesome -->
+    <link type="text/css" href="./vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <!-- Pixel CSS -->
+    <link type="text/css" href="./css/neumorphism.css" rel="stylesheet">
 
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!-- Primary Meta Tags -->
-<title>EcoMobileWash Eco Mobile Wash - Eco Friendly Mobile Car Wash Service in San Diego. We Come to You.</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="title" content="EcoMobileWash">
-<meta name="author" content="EcoMobileWash.com">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W2Z8ZZ7MP8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-W2Z8ZZ7MP8');
+    </script>
 
-<link rel="canonical" href="https://EcoMobileWash.com" />
-
-<!--  Social tags -->
-<meta name="keywords" content="mobile, car, wash, detail, San Diego, car detailing San Diego, eco-friendly, car wash San Diego, mobile detailing, luxury car detailing, boat detailing, golf cart detailing, car washing services San Diego, professional car wash San Diego, eco-friendly mobile car wash, car care San Diego">
-<meta name="description" content="Eco Mobile Wash, we come to your location, and bring 100% hand-crafted eco-friendly detailing service to your cars, RVs, motorcycles, boats, and airplanes. So you don't have to leave your home or office and spend precious time with your family and on business.">
-
-<!-- Schema.org markup for Google+ -->
-<meta itemprop="name" content="EcoMobileWash">
-<meta itemprop="description" content="Eco friendly carwash and auto detailing company in San Diego">
-<meta itemprop="image" content="https://i.ibb.co/wSJD4mc/Eco-Mobile-Wash-logo-rm.png" alt="Eco-Mobile-Wash-logo-rm">
-
-<!--Favicon-->
-<link rel="apple-touch-icon" sizes="120x120" href="./assets/img/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
-<link rel="manifest" href="./assets/img/favicon/site.webmanifest">
-<link rel="mask-icon" href="./assets/img/favicon/safari-pinned-tab.svg" color="#ffffff">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="theme-color" content="#ffffff">
-
-
-<link type="text/css" href="./vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
-
-<!-- Pixel CSS -->
-<link type="text/css" href="./css/neumorphism.css" rel="stylesheet">
-
-<!-- NOTICE: You can use the _analytics.html partial to include production code specific code & trackers -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-
+    <!-- Scammer Web Scraping Prevention -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const email = "contact@ecomobilewash.com";
+            const phone = "(619) 800-8239";
+            document.querySelectorAll(".obfuscated-email").forEach(e => e.textContent = email);
+            document.querySelectorAll(".obfuscated-phone").forEach(p => p.textContent = phone);
+        });
+    </script>
 </head>
 
 <body>
     <header class="header-global">
-    <nav id="navbar-main" aria-label="Primary navigation" class="navbar navbar-main navbar-expand-lg navbar-theme-primary headroom navbar-light navbar-transparent navbar-theme-primary">
-        <div class="container position-relative">
-            <a class="navbar-brand shadow-soft py-2 px-3 rounded border border-light mr-lg-4" href="./index.html" >
-                <img class="navbar-brand-dark" src="./assets/img/brand/dark.png" alt="Logo light">
-                <img class="navbar-brand-light" src="./assets/img/brand/dark.png" alt="Logo dark">
-            </a>
-            <div class="navbar-collapse collapse" id="navbar_global">
-                <div class="navbar-collapse-header">
-                    <div class="row">
-                        <div class="col-6 collapse-brand">
-                            <a href="./index.html" class="navbar-brand shadow-soft py-2 px-3 rounded border border-light">
-                                <img src="./assets/img/brand/dark.png" alt="EcoMobileWash logo">
-                            </a>
-
+        <nav id="navbar-main" aria-label="Primary navigation" class="navbar navbar-main navbar-expand-lg navbar-theme-primary headroom navbar-light navbar-transparent navbar-theme-primary">
+            <div class="container position-relative">
+                <a class="navbar-brand shadow-soft py-2 px-3 rounded border border-light mr-lg-4" href="./index.html">
+                    <img class="navbar-brand-dark" src="./assets/img/brand/dark.png" alt="Logo light">
+                    <img class="navbar-brand-light" src="./assets/img/brand/dark.png" alt="Logo dark">
+                </a>
+                <div class="navbar-collapse collapse" id="navbar_global">
+                    <div class="navbar-collapse-header">
+                        <div class="row">
+                            <div class="col-6 collapse-brand">
+                                <a href="./index.html" class="navbar-brand shadow-soft py-2 px-3 rounded border border-light">
+                                    <img src="./assets/img/brand/dark.png" alt="EcoMobileWash logo">
+                                </a>
+                            </div>
                         </div>
-                           
-    </nav>
-</header>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
     <main>
-
-        <!-- Hero -->
         <section class="section section bg-soft pb-5 overflow-hidden z-2">
             <div class="container z-2">
-                <h4 class="display-4 mb-3 text-right font-weight-bold">Booking: <span class="text-success font-weight-bold">(619) 800-8239</span></h4>
-            <div class="container">
+                <h4 class="display-4 mb-3 text-right font-weight-bold">Booking: <span class="text-success font-weight-bold obfuscated-phone"></span></h4>
+                <div class="container z-2">
+                    <h2 class="display-2 mb-3 text-center">About <span class="text-success font-weight-bold">Eco</span>MobileWash</h2>
+                    <div class="container">
+                        <div class="row align-items-center justify-content-around">
+                            <div class="col-md-6 col-xl-6 mb-5">
+                                <div class="card bg-primary shadow-soft border-light organic-radius p-3">
+                                    <img class="organic-radius img-fluid" src="./assets/img/blog/about.jpg" alt="About EcoMobileWash">
+                                </div>
+                                <br>
+                            </div>
+                            <div class="col-md-6 col-xl-5 text-center text-md-left">
+                                <p class="lead">EcoMobileWash offers eco-friendly mobile detailing services for a wide range of vehicles, including cars, motorcycles, RVs, boats, jetskis, and airplanes. As a sustainable technology company based in San Diego, our goal is to provide top-notch, customer-centric detailing services that promote environmental responsibility.</p>
+                                <p class="lead">Our EPA approved detailing solutions are designed to minimize waste and environmental impact, as they generate no waste water run-off and leave no stains on the ground. Our innovative waterless washing technology enables us to conserve water, using only 1% of the water compared to a conventional carwash. This results in an average savings of 40 gallons of water per carwash.</p>
+                                <p class="lead">EcoMobileWash proudly sponsors <a href="https://appchurchglobal.org" class="text-secondary">AppChurch Global Foundation</a> for its endeavor of closing the digital divide between Christianity and our time.</p>
+                                <br>
+                                <a href="https://forms.gle/hLLvMyccznrAWVFUA">
+                                    <button class="btn btn-primary" type="button"><span class="mr-lg-4"><span class="fas fa-user-plus mr-2 text-success"></span></span><span class="font-weight-bold text-success">Sign up to Claim $39 Credit</span>
+                                    </button>
+                                </a>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-lg">
             <div class="container z-2">
-                <h2 class="display-2 mb-3 text-center">About <span class="text-success font-weight-bold">Eco</span>MobileWash</h2>
-            <div class="container">
-
-                <div class="row align-items-center justify-content-around">
-                    <div class="col-md-6 col-xl-6 mb-5">
-                        <div class="card bg-primary shadow-soft border-light organic-radius p-3">
-                            <img class="organic-radius img-fluid" src="./assets/img/blog/about.jpg" alt="About EcoMobileWash">
+                <h3 class="display-3 mb-3 text-center"><span class="text-success font-weight-bold">Eco</span>Vehicle Service Packs</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-5">
+                            <div class="profile-card mb-5">
+                                <div class="card bg-primary shadow-soft border-light">
+                                    <div class="card-header p-4">
+                                        <img src="./assets/img/blog/interior-express.jpg" class="card-img-top rounded" alt="Interior Express">
+                                    </div>
+                                    <div class="card-body">
+                                        <span class="display-4 font-weight-bold">Thoro-Interior<span class="align-top font-medium text-success">$89</span></span>
+                                        <p class="card-text">
+                                            <li>Eco-Friendly Hand Cleaning</li>
+                                            <li>Vacuum Interior</li>
+                                            <li>Clean Mats</li>
+                                            <li>Vacuum Seats</li>
+                                            <li>Clean & Organize Trunk</li>
+                                            <li>Shampoo Carpet</li>
+                                            <li>Interior Stain Removal</li>
+                                            <li>Leather Treatment</li>
+                                            <li>Center Console & Dashboard Cleaning</li>
+                                        </p>
+                                        <p><span class="align-top font-small text-gray">($39 extra for mini-van & full-size SUV)</span> </p>
+                                        <a href="https://calendly.com/ecomobilewash/booking" class="btn btn-primary btn-block text-success"><span class="fas fa-cart-plus mr-2 text-success"></span> Book Now</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <br>
-                    </div>
+                        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-5">
+                            <div class="profile-card mb-5">
+                                <div class="card bg-primary shadow-soft border-light">
+                                    <div class="card-header p-4">
+                                        <img src="./assets/img/blog/EcoFullDetail.jpg" class="card-img-top rounded" alt="Eco Full Detail">
+                                    </div>
+                                    <div class="card-body">
+                                        <span class="display-4 font-weight-bold">Eco Full Detail <span class="align-top font-medium text-success">$179</span></span>
+                                        <p class="card-text">The Eco Full Detail is the most cost
 
-
-                    <div class="col-md-6 col-xl-5 text-center text-md-left">
-                        <p class="lead">EcoMobileWash offers eco-friendly mobile detailing services for a wide range of vehicles, including cars, motorcycles, RVs, boats, jetskis, and airplanes. As a sustainable technology company based in San Diego, our goal is to provide top-notch, customer-centric detailing services that promote environmental responsibility. </p>
-                        <p class="lead">Our EPA approved detailing solutions are designed to minimize waste and environmental impact, as they generate no waste water run-off and leave no stains on the ground. Our innovative waterless washing technology enables us to conserve water, using only 1% of the water compared to a conventional carwash. This results in an average savings of 40 gallons of water per carwash.</p>
-                        <p class="lead">EcoMobileWash proudly sponsors <a href="https://appchurchglobal.org" class="text-secondary">AppChurch Global Foundation</a> for its endeavor of closing the digital divide between Christianity and our time.</p>
-                    <br>
-                    
-                    <a href="https://forms.gle/hLLvMyccznrAWVFUA">
-                       <button class="btn btn-facebook" type="button"><span class="mr-lg-4"><span class="fas fa-user-plus mr-2 text-success"></span></span><span class="font-weight-bold text-success font-weight-bold">Sign up to Claim $39 Credit</span>
-                       </button>
-                    </a>
-                    <br>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </section>
-
- <!-- End of Hero section -->
- <section class="section section-lg">
-     <div class="container z-2">
-                <h3 class="display-3 mb-3 text-center"><span class="text-success font-weight-bold">Eco</span>MobileWash Services</h3>
-            <div class="container">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-5">
-                <!-- Profile Card -->
-                <div class="profile-card mb-5">
-                    <div class="card bg-primary shadow-soft border-light">
-                        <div class="card-header p-4">
-                        <img src="./assets/img/blog/carwash.jpg" class="card-img-top rounded" alt="carwash">
+-effective service pack, saving you over $100 in bundle discounts. It <span class="font-weight-bold">includes all items in the Eco In-N-Out</span> pack, as well as the following additional items:
+                                            <li>Clay Bar Treatment</li>
+                                            <li>Trims Revival Shine Treatment</li>
+                                            <li>Pet Hair Removal</li>
+                                            <li>Interior Stain Removal</li>
+                                            <li>Carpet Shampoo</li>
+                                            <li>Seat Shampoo</li>
+                                            <li>Upholstery Treatment</li>
+                                            <li>Leather Protection</li>
+                                            <li>Clean AC Vents</li>
+                                            <li>Exhaust Tailpipe Polish</li>
+                                        </p>
+                                        <p><span class="align-top font-small text-gray">($39 extra for mini-van & full-size SUV)</span> </p>
+                                        <a href="https://calendly.com/ecomobilewash/booking" class="btn btn-primary btn-block text-success"><span class="fas fa-cart-plus mr-2"></span> Book Now</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
-                        <div class="card-body">
-                            <h3 class="h4 mb-2">Automotice Detailing</h3>
-                            <span class="h6 font-weight-normal text-secondary mb-3">Mobile & Stationary</span>
-                            <p class="card-text">Eco-friendly professional hand wash. Use 95% less water than conventional carwash. No water run-off/stain. 100% compliant with Federal and State environmental protection regulations.</p>
+                        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-5">
+                            <div class="profile-card mb-5">
+                                <div class="card bg-primary shadow-soft border-light">
+                                    <div class="card-header p-4">
+                                        <img src="./assets/img/blog/bike2.jpg" class="card-img-top rounded" alt="Eco Bike Detail">
+                                    </div>
+                                    <div class="card-body">
+                                        <span class="display-4 font-weight-bold">Eco Bike Detail <span class="align-top font-medium text-success">$119</span></span>
+                                        <p class="card-text">Includes everything with the Eco Bike Wash, plus an application of the ceramic coating.
+                                            <li>Chrome & metal surfaces polishing</li>
+                                            <li>Leather treatment</li>
+                                            <li>High-gloss wax</li>
+                                            <li>Clean break & chain</li>
+                                            <br>
+                                            <br>
+                                            <br>
+                                            <br>
+                                            <br>
+                                            (We have partnered with <a href="https://superbikepowersports.com" class="text-secondary">Superbike Powersports<span class="text-secondary"></span></a> to offer high-quality motorcycle maintenance services.)
+                                        </p>
+                                        <a href="https://calendly.com/ecomobilewash/booking" class="btn btn-primary btn-block text-success"><span class="fas fa-cart-plus mr-2"></span> Book Now</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>    
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-5">
-                <!-- Profile Card -->
-                <div class="profile-card mb-5">
-                    <div class="card bg-primary shadow-soft border-light">
-                        <div class="card-header p-4">
-                        <img src="./assets/img/blog/boadwash.jpg" class="card-img-top rounded" alt="boat wash">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="h4 mb-2">Boat Wash & Seal</h3>
-                            <span class="h6 font-weight-normal text-secondary mb-3">Mobile</span>
-                            <p class="card-text">Professional wash, wax and seal your freshwater and altwater boat, jetski and other watercrafts. 100% handcrafted detailing service and eco-friendly cleaning solution.</p>
-                        </div>
-                    </div>
-                </div>    
-            </div>
-            
-            <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-5">
-                <!-- Profile Card -->
-                <div class="profile-card mb-5">
-                    <div class="card bg-primary shadow-soft border-light">
-                        <div class="card-header p-4">
-                        <img src="./assets/img/blog/atv.jpg" class="card-img-top rounded" alt="Bike/ATV/RV Detailing">
-                        </div>
-
-                        <div class="card-body">
-                            <h3 class="h4 mb-2">Bike/ATV/RV Detailing</h3>
-                            <span class="h6 font-weight-normal text-secondary mb-3" >Mobile</span>
-                            <p class="card-text">Our professioally trained detailers also take care of your Motorcycles, ATVs and RVs.</p>
-                            <a href="./html/pages/bike.html" class="btn btn-primary btn-block text-secondary"><span class="fas fa-plus mr-2"></span> More Details</a> 
-                        </div>
-                    </div>
-                </div>    
-            </div>
-
-
-                    </div>
-                </div>
-                <!-- End of Profile Card -->
-        </div>
-    </div>
-</section>
-
- <section class="section section-lg">
-     <div class="container z-2">
-                <h3 class="display-3 mb-3 text-center"><span class="text-success font-weight-bold">Eco </span>Vehicle Service Packs</h3>
-            <div class="container">
-    <div class="container">
-        <div class="row">
-    <!--        
-            <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-5">
-                
-                <div class="profile-card mb-5">
-                    <div class="card bg-primary shadow-soft border-light">
-                        <div class="card-header p-4">
-                        <img src="./assets/img/blog/exterior-express.jpg" class="card-img-top rounded" alt="plan cleaning">
-                        </div>
-
-                        <div class="card-body">
-                            <span class="display-4 font-weight-bold "> Exterior Express 
-                                    <span class="align-top font-medium  text-success">$39</span>
-                              </span>
-                <p class="card-text">
-                    <li>100% Eco-Friendly Hand Wash</li> 
-                    <li>Clean Exterior Window Surface </li>
-                    <li>Clean Rims & Tires </li>
-                    <li>Tire Dressing</li>
-                    <li>Clean Door Jams </li>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                </p>
-                <p><span class="align-top font-small text-gray">($19 extra for mini-van & full-size SUV | $39 extra for full-size van)</span> </p>
-                <a href="https://calendly.com/ecomobilewash/booking" class="btn btn-primary btn-block  text-success"><span class="fas fa-cart-plus mr-2 text-success"></span> Book Now</a>
-                        </div>
-                    </div>
-                </div>    
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-5">
-               
-                <div class="profile-card mb-5">
-                    <div class="card bg-primary shadow-soft border-light">
-                        <div class="card-header p-4">
-                        <img src="./assets/img/blog/interior-express.jpg" class="card-img-top rounded" alt="plan cleaning">
-                        </div>
-
-                        <div class="card-body">
-                            <span class="display-4 font-weight-bold "> Interior Express 
-                                    <span class="align-top font-medium  text-success">$39</span>
-                              </span>
-                <p class="card-text">
-                    <li>Eco-Friendly Hand Cleaning</li> 
-                    <li>Vacuum Interior</li> 
-                    <li>Clean Mats</li>
-                    <li>Vacuum Seats</li>
-                    <li>Clean & Organize Trunk</li>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                </p>
-                <p><span class="align-top font-small text-gray">($19 extra for mini-van & full-size SUV | $39 extra for full-size van)</span> </p>
-                <a href="https://calendly.com/ecomobilewash/booking" class="btn btn-primary btn-block  text-success"><span class="fas fa-cart-plus mr-2 text-success"></span> Book Now</a>
-                        </div>
-                    </div>
-                </div>    
-            </div>
- -->
-            <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-5">
-                <!-- Profile Card -->
-                <div class="profile-card mb-5">
-                    <div class="card bg-primary shadow-soft border-light">
-                        <div class="card-header p-4">
-                        <img src="./assets/img/blog/interior-express.jpg" class="card-img-top rounded" alt="plan cleaning">
-                        </div>
-
-                        <div class="card-body">
-                            <span class="display-4 font-weight-bold "> Thoro-Interior 
-                                    <span class="align-top font-medium  text-success">$89</span>
-                              </span>
-                <p class="card-text">
-                    <li>Eco-Friendly Hand Cleaning</li> 
-                    <li>Vacuum Interior</li> 
-                    <li>Clean Mats</li>
-                    <li>Vacuum Seats</li>
-                    <li>Clean & Organize Trunk</li>
-                    <li>Shampoo Carpet</li> 
-                    <li>Interior Stain Removal</li>
-                    <li>Leather Treatmemt</li>
-                    <li>Center Console & Dashboard Cleaning</li>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                </p>
-                <p><span class="align-top font-small text-gray">($39 extra for mini-van & full-size SUV)</span> </p>
-                <a href="https://calendly.com/ecomobilewash/booking" class="btn btn-primary btn-block  text-success"><span class="fas fa-cart-plus mr-2 text-success"></span> Book Now</a>
-                        </div>
-                    </div>
-                </div>    
-            </div>
-
-            
-
-            <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-5">
-                <!-- Profile Card -->
-                <div class="profile-card mb-5">
-                    <div class="card bg-primary shadow-soft border-light">
-                        <div class="card-header p-4">
-                        <img src="./assets/img/blog/EcoFullDetail.jpg" class="card-img-top rounded" alt="plan cleaning">
-                        </div>
-
-                        <div class="card-body">
-                            <span class="display-4 font-weight-bold">
-                  Eco Full Detail <span class="align-top font-medium text-success">$179 </span>
-             </span>
-                <p class="card-text">The Eco Full Detail is the most cost-effective service pack, saving you over $100 in bundle discounts. It <span class="font-weight-bold">includes all items in the Eco In-N-Out</span> pack, as well as the following additional items: 
-<li>Clay Bar Treatment</li>
-<li>Trims Revival Shine Treatment</li>
-<li>Pet Hair Removal</li>
-<li>Interior Stain Removal</li>
-<li>Carpet Shampoo</li>
-<li>Seat Shampoo</li>
-<li>Upholstery Treatment</li> 
-<li>Leather Proection</li>
-<li>Clean AC Vents</li>
-<li>Exhaust Tailpipe Polish</li>
-
-</p>
-<p><span class="align-top font-small text-gray">($39 extra for mini-van & full-size SUV)</span> </p>
-                <a href="https://calendly.com/ecomobilewash/booking" class="btn btn-primary btn-block text-success"><span class="fas fa-cart-plus mr-2"></span> Book Now</a>
-                        </div>
-                    </div>
-                </div>    
-            </div>
-
-<div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-5">
-                <!-- Profile Card -->
-                <div class="profile-card mb-5">
-                    <div class="card bg-primary shadow-soft border-light">
-                        <div class="card-header p-4">
-                        <img src="./assets/img/blog/bike2.jpg" class="card-img-top rounded" alt="plan cleaning">
-                        </div>
-
-                        <div class="card-body">
-                            <span class="display-4 font-weight-bold">
-                  Eco Bike Detail <span class="align-top font-medium text-success">$119 </span>          
-             </span>
-                <p class="card-text">Includes everything with the Eco Bike Wash, plus an application of the ceramic coating.
-                    <li>Chrome & metal surfaces polishment</li> 
-                    <li>Leather treatment</li> 
-                    <li>High-gloss wax</li>
-                    <li>Clean break & chain</li>
-                     <br>
-                     <br>
-                     <br>
-                     <br>
-                     <br>
-                     (We have partnered with <a href="https://superbikepowersports.com" class="text-secondary">Superbike Powersports<span class="text-secondary"></span></a> to offer high-quality motorcycle maintenance services.)
-
-                </p>
-             
-        
-                <a href="https://calendly.com/ecomobilewash/booking" class="btn btn-primary btn-block  text-success"><span class="fas fa-cart-plus mr-2"></span> Book Now</a>
-                        </div>
-                    </div>
-                </div>    
-            </div>
-
                         <div class="container">
-                <h2 class="display-3 mb-3 text-center">Add-On Services</h2>
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 col-xl-4 text-center">
-                        <a href="https://calendly.com/ecomobilewash/booking" class="btn btn-primary btn-block  text-success"><span class="fas fa-cart-plus mr-0"></span> Add</a>
-                        <br>  
-                    </div>
-            </div>
+                            <h2 class="display-3 mb-3 text-center">Add-On Services</h2>
+                            <div class="row justify-content-center">
+                                <div class="col-lg-6 col-xl-4 text-center">
+                                    <a href="https://calendly.com/ecomobilewash/booking" class="btn btn-primary btn-block text-success"><span class="fas fa-cart-plus mr-0"></span> Add</a>
+                                    <br>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-12">
+                                    <div class="alert alert-success shadow-inset" role="alert">
+                                        <p>
+                                            <span class="font-weight-bold font-weight-bold">
+                                                <span class="align-items-center font-weight-bold font-medium text-gray">Ceramic Coating Fortification</span>
+                                                <span class="font-weight-normal font-weight-normal text-black">| $69: Fortify your car's existing ceramic coating with an additional layer of protection to enhance its lifespan, durability, and resistance to scratches and environmental factors. This service is perfect for cars that already have a ceramic coating.</span>
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <div class="alert alert-success shadow-inset" role="alert">
+                                        <p>
+                                            <span class="font-weight-bold font-weight-bold">
+                                                <span class="align-items-center font-weight-bold font-medium text-gray">Pet Hair Removal</span>
+                                                <span class="font-weight-normal font-weight-normal text-black">| $49: Remove stubbornly trapped pet hair from car mats, headliners, cargo areas & seats.</span>
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <div class="alert alert-success shadow-inset" role="alert">
+                                        <p>
+                                            <span class="font-weight-bold font-weight-bold">
+                                                <span class="align-items-center font-weight-bold font-medium text-gray">Exterior Stain Removal</span>
+                                                <span class="font-weight-normal font-weight-normal text-black">| $49: Completely remove tough and sticky tree resin, tar, bubble gum, and sticker residue marks.</span>
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <div class="alert alert-success shadow-inset" role="alert">
+                                        <p>
+                                            <span class="font-weight-bold font-weight-bold">
+                                                <span class="align-items-center font-weight-bold font-medium text-gray">Interior Shampoo Treatment</span>
+                                                <span class="font-weight-normal font-weight-normal text-black">| $69: Thorough cleaning of carpet and mats, applying professional shampoo and heated extraction on all interior surfaces, carpet, mats, headliner, and pillars.</span>
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <div class="alert alert-success shadow-inset" role="alert">
+                                        <p>
+                                            <span class="font-weight-bold font-weight-bold">
+                                                <span class="align-items-center font-weight-bold font-medium text-gray">Leather Seat Treatment</span>
+                                                <span class="font-weight-normal font-weight-normal text-black">| $39: Penetrate deep into the leather upholstery to remove dirt, stains, grime, and odors. Follow with a leather conditioner to rejuvenate leather.</span>
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <div class="alert alert-success shadow-inset" role="alert">
+                                        <p>
+                                            <span class="font-weight-bold font-weight-bold">
+                                                <span class="align-items-center font-weight-bold font-medium text-gray">Paint Scratch Removal</span>
+                                                <span class="font-weight-normal font-weight-normal text-black">| $69: Most light paint scratches can be fixed by polishing the clear coat with a special compound. Remove the damaged layer and leave your paint looking good as new.</span>
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <div class="alert alert-success shadow-inset" role="alert">
+                                        <p>
+                                            <span class="font-weight-bold font-weight-bold">
+                                                <span class="align-items-center font-weight-bold font-medium text-gray">Headlight Restoration</span>
+                                                <span class="font-weight-normal font-weight-normal text-black">| $169: Restore discolored and murky headlight lenses/case back to crystal clear.</span>
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <div class="alert alert-success shadow-inset" role="alert">
+                                        <p>
+                                            <span class="font-weight-bold font-weight-bold">
+                                                <span class="align-items-center font-weight-bold font-medium text-gray">Clay Bar Treatment</span>
+                                                <span class="font-weight-normal font-weight-normal text-black">| $69: Clay bar treatment is useful for when a car's paint feels rough and is no longer smooth to the touch as it can help restore that nice smooth feeling you once knew and loved.</span>
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <div class="alert alert-success shadow-inset" role="alert">
+                                        <p>
+                                            <span class="font-weight-bold font-weight-bold">
+                                                <span class="align-items-center font-weight-bold font-medium text-gray">Under Hood Cleaning</span>
+                                                <span class="font-weight-normal font-weight-normal text-black">| $69: Keeping a car clean all over makes it worth more money, but keeping it clean under the hood can actually make it last longer and it can make it run better. Under Hood Cleaning will clear out the dust, tree leaves, and grease buildup under the hood and keep your car running smoothly.</span>
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <div class="alert alert-success shadow-inset" role="alert">
+                                        <p>
+                                            <span class="font-weight-bold font-weight-bold">
+                                                <span class="align-items-center font-weight-bold font-medium text-gray">Flood Stain Removal</span>
+                                                <span class="font-weight-normal font-weight-normal text-black">| $69 and up: Extract flood stains from the interior floor, carpet, mats, seats, and upholsteries, and remove the stains, watermarks, and odors from the interior of the vehicle. This is a deep "cosmetic" cleaning to restore the appearance and look of the vehicle. <span class="text-danger font-weight-light">(Note: The Flood Stain Removal does NOT repair the flood damage to the metal, mechanical and electrical parts/systems of the vehicle.)</span></span>
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <div class="alert alert-success shadow-inset" role="alert">
+                                        <p>
+                                            <span class="font-weight-bold font-weight-bold">
+                                                <span class="align-items-center font-weight-bold font-medium text-gray">Biohazard Clean & Disinfect</span>
+                                                <span class="font-weight-normal font-weight-normal text-black">| $69: Organic wastes like vomiting, pet waste, fishing stains, and more can and will spoil and turn into biohazards quickly if you let them sit
 
-<div class="row">
-<div class="col-12 col-md-12">
-    <div class="alert alert-success shadow-inset" role="alert">
-        <p>
-        <span class="font-weight-bold font-weight-bold">
-            <span class="align-items-center font-weight-bold font-medium text-gray">Ceramic Coating Fortification</span>
-            <span class="font-weight-normal font-weight-normal text-black" >| $69: Fortify your car's existing ceramic coating with an additional layer of protection to enhance its lifespan, durability, and resistance to scratches and environmental factors. This service is perfect for cars that already have a ceramic coating.</span>                                 
-            </p> 
-        </p>                                  
-    </div>
-    <div class="alert alert-success shadow-inset" role="alert">
-        <p>
-        <span class="font-weight-bold font-weight-bold">
-            <span class="align-items-center font-weight-bold font-medium text-gray">Pet Hair Removal</span>
-            <span class="font-weight-normal font-weight-normal text-black" >| $49: Remove stubbornly trapped pet hair from car mats, headliners, cargo areas & seats.</span>                                 
-            </p> 
-        </p>                                  
-    </div>
-    
-    <div class="alert alert-success shadow-inset" role="alert">
-        <p>
-        <span class="font-weight-bold font-weight-bold">
-            <span class="align-items-center font-weight-bold font-medium text-gray">Exterior Stain Removal</span>
-            <span class="font-weight-normal font-weight-normal text-black" >| $49: Completely remove tough and sticky tree resin, tar, bubble gum, and sticker residue marks.</span>                                 
-            </p>
-    </div>
-
-    <div class="alert alert-success shadow-inset" role="alert">
-        <p>
-        <span class="font-weight-bold font-weight-bold">
-            <span class="align-items-center font-weight-bold font-medium text-gray">Interior Shampoo Treatment</span>
-            <span class="font-weight-normal font-weight-normal text-black" >| $69: Thorough cleaning of carpet and mats, applying professional shampoo and heated extraction on all interior surfaces, carpet, mats, headliner, and pillars.</span>
-            </p>
-    </div>
-
-    <div class="alert alert-success shadow-inset" role="alert">
-        <p>
-        <span class="font-weight-bold font-weight-bold">
-            <span class="align-items-center font-weight-bold font-medium text-gray">Leather Seat Treatment</span>
-            <span class="font-weight-normal font-weight-normal text-black" >| $39: Penetrate deep into the leather upholstery to remove dirt, stains, grime, and odors. Follow with a leather conditioner to rejuvenate leather.</span>
-            </p> 
-    </div>
-
-    <div class="alert alert-success shadow-inset" role="alert">
-        <p>
-        <span class="font-weight-bold font-weight-bold">
-            <span class="align-items-center font-weight-bold font-medium text-gray">Paint Scratch Removal</span>
-            <span class="font-weight-normal font-weight-normal text-black" >| $69: Most light paint scratches can be fixed by polishing the clear coat with a special compound. Remove the damaged layer and leave your paint looking good as new.</span>
-            </p>
-    </div>
-
-    <div class="alert alert-success shadow-inset" role="alert">
-        <p>
-        <span class="font-weight-bold font-weight-bold">
-            <span class="align-items-center font-weight-bold font-medium text-gray">Headlight Restoration</span>
-            <span class="font-weight-normal font-weight-normal text-black" >| $169: Restore discolored and murky headlight lenses/case back to crystal clear.</span>
-            </p>
-    </div>
-
-    <div class="alert alert-success shadow-inset" role="alert">
-        <p>
-        <span class="font-weight-bold font-weight-bold">
-            <span class="align-items-center font-weight-bold font-medium text-gray">Clay Bar Treatment</span>
-            <span class="font-weight-normal font-weight-normal text-black" >| $69: Clay bar treatment is useful for when a car's paint feels rough and is no longer smooth to the touch as it can help restore that nice smooth feeling you once knew and loved.</span>
-            </p>
-    </div>
-
-    <div class="alert alert-success shadow-inset" role="alert">
-        <p>
-        <span class="font-weight-bold font-weight-bold">
-            <span class="align-items-center font-weight-bold font-medium text-gray">Under Hood Cleaning</span>
-            <span class="font-weight-normal font-weight-normal text-black" >| $69: Keeping a car clean all over makes it worth more money, but keeping it clean under the hood can actually make it last longer and it can make it run better. Under Hood Cleaning will clear out the dust, tree leaves, and grease buildup under the hood and keep your car running smoothly.</span>
-            </p>
-    </div>
-
-    <div class="alert alert-success shadow-inset" role="alert">
-        <p>
-        <span class="font-weight-bold font-weight-bold">
-            <span class="align-items-center font-weight-bold font-medium text-gray">Flood Stain Removal</span>
-            <span class="font-weight-normal font-weight-normal text-black" >| $69 and up: Extract flood stains from the interior floor, carpet, mats, seats, and upholsteries, and remove the stains, watermarks, and odors from the interior of the vehicle. This is a deep "cosmetic" cleaning to restore the appearance and look of the vehicle. <span class="text-danger font-weight-light">(Note: The Flood Stain Removal does NOT repair the flood damage to the metal, mechanical and electrical parts/systems of the vehicle.)</span> </span>
-            </p>
-    </div>
-
-    <div class="alert alert-success shadow-inset" role="alert">
-        <p>
-        <span class="font-weight-bold font-weight-bold">
-            <span class="align-items-center font-weight-bold font-medium text-gray">Biohazard Clean & Disinfect</span>
-            <span class="font-weight-normal font-weight-normal text-black" >| $69: Organic wastes like vomiting, pet waste, fishing stains, and more can and will spoil and turn into biohazards quickly if you let them sit on your car interior untreated. Our professional deep biohazard cleaning will extract, remove and disinfect the organic residuals with deep shampoo treatment and pressurized high-temperature steam, then follow up with eco-friendly natural fragrance. Restore the cleanness and freshness of your car. </span>
-            </p>
-    </div>
-
-    <div class="alert alert-success shadow-inset" role="alert">
-        <p>
-        <span class="font-weight-bold font-weight-bold">
-            <span class="align-items-center font-weight-bold font-medium text-gray">Ceramic Coating</span>
-            <span class="font-weight-normal font-weight-normal text-black" >| $299: Apply a hard, durable, and transparent long-lasting protection layer on top of the paint that shields it from scratches, UV damage, and contaminants. It gives the car a glossy, showroom-like finish that lasts for years and reduces the need for frequent waxing and polishing, making it a cost-effective solution</span>                                 
-            </p>
-    </div>
-
-    <div class="alert alert-success shadow-inset" role="alert">
-        <p>
-        <span class="font-weight-bold font-weight-bold">
-            <span class="align-items-center font-weight-bold font-medium text-gray">Over-Time Surcharge</span>
-            <span class="font-weight-normal font-weight-normal text-black" >| $39: Life is full of surprises. If you find yourself in need of an emergency car wash or detailing on weekends or national holidays, we are available to come to your aid with a small additional fee.</span>
-            </p>
-    </div>
-
-    <div class="alert alert-success shadow-inset" role="alert">
-        <p>
-        <span class="font-weight-bold font-weight-bold">
-            <span class="align-items-center font-weight-bold font-medium text-gray">Off-Road Vechicle Surcharge</span>
-            <span class="font-weight-normal font-weight-normal text-black" >| $49: Embark on off-road adventures with ease, as we handle the dirt and mud for you. Off-road vehicles demand extra attention to their complex surface structure, and we're dedicated to maintaining your vehicle's top performance and condition.</span>
-            </p>
-    </div>
-
-    <div class="alert alert-success shadow-inset" role="alert">
-        <p>
-        <span class="font-weight-bold font-weight-bold">
-            <span class="align-items-center font-weight-bold font-medium text-gray">Excessive Dirty Surcharge</span>
-            <span class="font-weight-normal font-weight-normal text-black" >| $49:  When the interior or exterior of the vehicle is particularly dirty or has not been cleaned in a long time, making it more difficult and time-consuming to clean.</span>
-            </p>
-    </div>
-
-</div>
-
-                        <!-- End of Pricing Card -->
-</div>
-
-                    
-                        <!-- End of Pricing Card -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-    <section class="section section-lg pt-0">
-            <div class="container">
-                <div class="row justify-content-center mb-5">
-                    <h2 class="h1">Our Detailing Sites</h2>
-                </div>
-                <div class="row">
-
-                   
-                   <div class="col-12 col-md-6 col-lg-6">
-                        <!-- Profile Card -->
-                        <!--<div class="card bg-primary border-light shadow-soft">
-                            <div class="card-header p-3 text-center">
-                                <img src="./assets/img/blog/signatureair.jpg" class="card-img-top rounded" alt="Designer desk">
-                                    <h3 class="h5 card-title mt-4">Signature Airline</h3>
+ on your car interior untreated. Our professional deep biohazard cleaning will extract, remove and disinfect the organic residuals with deep shampoo treatment and pressurized high-temperature steam, then follow up with eco-friendly natural fragrance. Restore the cleanness and freshness of your car.</span>
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <div class="alert alert-success shadow-inset" role="alert">
+                                        <p>
+                                            <span class="font-weight-bold font-weight-bold">
+                                                <span class="align-items-center font-weight-bold font-medium text-gray">Ceramic Coating</span>
+                                                <span class="font-weight-normal font-weight-normal text-black">| $299: Apply a hard, durable, and transparent long-lasting protection layer on top of the paint that shields it from scratches, UV damage, and contaminants. It gives the car a glossy, showroom-like finish that lasts for years and reduces the need for frequent waxing and polishing, making it a cost-effective solution</span>
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <div class="alert alert-success shadow-inset" role="alert">
+                                        <p>
+                                            <span class="font-weight-bold font-weight-bold">
+                                                <span class="align-items-center font-weight-bold font-medium text-gray">Over-Time Surcharge</span>
+                                                <span class="font-weight-normal font-weight-normal text-black">| $39: Life is full of surprises. If you find yourself in need of an emergency car wash or detailing on weekends or national holidays, we are available to come to your aid with a small additional fee.</span>
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <div class="alert alert-success shadow-inset" role="alert">
+                                        <p>
+                                            <span class="font-weight-bold font-weight-bold">
+                                                <span class="align-items-center font-weight-bold font-medium text-gray">Off-Road Vehicle Surcharge</span>
+                                                <span class="font-weight-normal font-weight-normal text-black">| $49: Embark on off-road adventures with ease, as we handle the dirt and mud for you. Off-road vehicles demand extra attention to their complex surface structure, and we're dedicated to maintaining your vehicle's top performance and condition.</span>
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <div class="alert alert-success shadow-inset" role="alert">
+                                        <p>
+                                            <span class="font-weight-bold font-weight-bold">
+                                                <span class="align-items-center font-weight-bold font-medium text-gray">Excessive Dirty Surcharge</span>
+                                                <span class="font-weight-normal font-weight-normal text-black">| $49: When the interior or exterior of the vehicle is particularly dirty or has not been cleaned in a long time, making it more difficult and time-consuming to clean.</span>
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section section-lg pt-0">
+                                <div class="container">
+                                    <div class="row justify-content-center mb-5">
+                                        <h2 class="h1">Our Detailing Sites</h2>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 col-lg-6">
+                                            <br>
+                                            <div class="card bg-primary border-light shadow-soft">
+                                                <div class="card-header p-3 text-center">
+                                                    <img src="./assets/img/blog/EcoMobileWash-Harley-Davison.jpg" class="card-img-top rounded" alt="Harley-Davison">
+                                                    <h3 class="h5 card-title mt-4">Harley-Davison</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-6">
+                                            <br>
+                                            <div class="card bg-primary border-light shadow-soft">
+                                                <div class="card-header p-3 text-center">
+                                                    <img src="./assets/img/blog/EcoMobileWash-525.jpg" class="card-img-top rounded" alt="525 Olive Luxury Apartment">
+                                                    <h3 class="h5 card-title mt-4">525 Olive Luxury Apartment</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-6">
+                                            <br>
+                                            <div class="card bg-primary border-light shadow-soft">
+                                                <div class="card-header p-3 text-center">
+                                                    <img src="./assets/img/blog/EcoMobileWash-superbike.jpg" class="card-img-top rounded" alt="Superbike Powersports">
+                                                    <h3 class="h5 card-title mt-4">Superbike Powersports</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-6">
+                                            <br>
+                                            <div class="card bg-primary border-light shadow-soft">
+                                                <div class="card-header p-3 text-center">
+                                                    <img src="./assets/img/blog/1810state.jpg" class="card-img-top rounded" alt="1810 State St. Apartments">
+                                                    <h3 class="h5 card-title mt-4">1810 State St. Apartments</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-6">
+                                            <br>
+                                            <div class="card bg-primary border-light shadow-soft">
+                                                <div class="card-header p-3 text-center">
+                                                    <img src="./assets/img/blog/museum.jpg" class="card-img-top rounded" alt="San Diego Automotive Museum">
+                                                    <h3 class="h5 card-title mt-4">San Diego Automotive Museum</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-6">
+                                            <br>
+                                            <div class="card bg-primary border-light shadow-soft">
+                                                <div class="card-header p-3 text-center">
+                                                    <img src="./assets/img/blog/vw.jpg" class="card-img-top rounded" alt="Mission Bay Chevy">
+                                                    <h3 class="h5 card-title mt-4">Mission Bay Chevy</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-6">
+                                            <br>
+                                            <div class="card bg-primary border-light shadow-soft">
+                                                <div class="card-header p-3 text-center">
+                                                    <img src="./assets/img/blog/current.jpg" class="card-img-top rounded" alt="Current, Little Italy">
+                                                    <h3 class="h5 card-title mt-4">1551 Union St.</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-6">
+                                            <br>
+                                            <div class="card bg-primary border-light shadow-soft">
+                                                <div class="card-header p-3 text-center">
+                                                    <img src="./assets/img/blog/form15.jpg" class="card-img-top rounded" alt="Form 15">
+                                                    <h3 class="h5 card-title mt-4">1450 Market St.</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-6">
+                                            <br>
+                                            <div class="card bg-primary border-light shadow-soft">
+                                                <div class="card-header p-3 text-center">
+                                                    <img src="./assets/img/blog/mission hills.jpg" class="card-img-top rounded" alt="Mission Hills/HillCrest">
+                                                    <h3 class="h5 card-title mt-4">Mission Hill/HillCrest</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-6">
+                                            <br>
+                                            <div class="card bg-primary border-light shadow-soft">
+                                                <div class="card-header p-3 text-center text-danger">
+                                                    <img src="./assets/img/blog/yourcompany.jpg" class="card-img-top rounded" alt="Your Company Here">
+                                                    <h3 class="h5 card-title mt-4">Your Company Here <span class="far fa-thumbs-up"></span></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>    
-
-                    <div class="col-12 col-md-6 col-lg-6"> -->
-                        <!-- Profile Card -->
-                        <br>
-                        <div class="card bg-primary border-light shadow-soft">
-                            <div class="card-header p-3 text-center">
-                                <img src="./assets/img/blog/EcoMobileWash-Harley-Davison.jpg" class="card-img-top rounded" alt="Designer desk">
-                                    <h3 class="h5 card-title mt-4">Harley-Davison</h3>
-                            </div>
-                        </div>
-                    </div>   
-
-                    <div class="col-12 col-md-6 col-lg-6">
-                        <!-- Profile Card -->
-                        <br>
-                        <div class="card bg-primary border-light shadow-soft">
-                            <div class="card-header p-3 text-center">
-                                <img src="./assets/img/blog/EcoMobileWash-525.jpg" class="card-img-top rounded" alt="Designer desk">
-                                    <h3 class="h5 card-title mt-4">525 Olive Luxry Appartment</h3>
-                            </div>
-                        </div>
-                    </div>   
-
-                    <div class="col-12 col-md-6 col-lg-6">
-                        <!-- Profile Card -->
-                        <br>
-                        <div class="card bg-primary border-light shadow-soft">
-                            <div class="card-header p-3 text-center">
-                                <img src="./assets/img/blog/EcoMobileWash-superbike.jpg" class="card-img-top rounded" alt="Designer desk">
-                                    <h3 class="h5 card-title mt-4">Superbile Powersports</h3>
-                            </div>
-                        </div>
-                    </div>  
-
-                    <div class="col-12 col-md-6 col-lg-6">
-                        <!-- Profile Card -->
-                        <br>
-                        <div class="card bg-primary border-light shadow-soft">
-                            <div class="card-header p-3 text-center">
-                                <img src="./assets/img/blog/1810state.jpg" class="card-img-top rounded" alt="Designer desk">
-                                    <h3 class="h5 card-title mt-4">1810 State St. Apartments</h3>
-                            </div>
-                        </div>
-                    </div>    
-
-
-                    <div class="col-12 col-md-6 col-lg-6">
-                        <!-- Profile Card -->
-                        <br>
-                        <div class="card bg-primary border-light shadow-soft">
-                            <div class="card-header p-3 text-center">
-                                <img src="./assets/img/blog/museum.jpg" class="card-img-top rounded" alt="Designer desk">
-                                    <h3 class="h5 card-title mt-4">San Diego Automotive Museum</h3>
-                            </div>
-                        </div>
-                    </div>   
-
-                    <div class="col-12 col-md-6 col-lg-6">
-                        <!-- Profile Card -->
-                        <br>
-                        <div class="card bg-primary border-light shadow-soft">
-                            <div class="card-header p-3 text-center">
-                                <img src="./assets/img/blog/vw.jpg" class="card-img-top rounded" alt="Designer desk">
-                                    <h3 class="h5 card-title mt-4"> Mission Bay Chevy</h3>
-                            </div>
-                        </div>
-                    </div>   
-
-
-                    <div class="col-12 col-md-6 col-lg-6">
-                        <!-- Profile Card -->
-                        <br>
-                        <div class="card bg-primary border-light shadow-soft">
-                            <div class="card-header p-3 text-center">
-                                <img src="./assets/img/blog/current.jpg" class="card-img-top rounded" alt="Current, Little Italy">
-                                    <h3 class="h5 card-title mt-4">1551 Union St.</h3>
-                            </div>
-                        </div>
-                    </div>   
-
-                    <div class="col-12 col-md-6 col-lg-6">
-                        <!-- Profile Card -->
-                        <br>
-                        <div class="card bg-primary border-light shadow-soft">
-                            <div class="card-header p-3 text-center">
-                                <img src="./assets/img/blog/form15.jpg" class="card-img-top rounded" alt="Form 15">
-                                    <h3 class="h5 card-title mt-4">1450 Market St.</h3>
-                            </div>
-                        </div>
-                    </div>   
-
-                    <div class="col-12 col-md-6 col-lg-6">
-                        <!-- Profile Card -->
-                        <br>
-                        <div class="card bg-primary border-light shadow-soft">
-                            <div class="card-header p-3 text-center">
-                                <img src="./assets/img/blog/mission hills.jpg" class="card-img-top rounded" alt="Mission Hills/HillCrest">
-                                    <h3 class="h5 card-title mt-4">Mission Hill/HillCrest</h3>
-                            </div>
-                        </div>
-                    </div>   
-
-                    <div class="col-12 col-md-6 col-lg-6">
-                        <!-- Profile Card -->
-                        <br>
-                        <div class="card bg-primary border-light shadow-soft">
-                            <div class="card-header p-3 text-center text-danger">
-                                <img src="./assets/img/blog/yourcompany.jpg" class="card-img-top rounded" alt="Designer desk">
-                                    <h3 class="h5 card-title mt-4">Your Company Here <span class="far fa-thumbs-up"></span></h3>
-                            </div>
-                        </div>
-                    </div> 
-                        <!-- End of Profile Card -->
-                    </div>
-                </div>
-            </div>
         </section>
+        <section class="section section-lg">
+            <div class="container z-2">
+                <h3 class="display-3 mb-3 text-center"><span class="text-success font-weight-bold">Eco</span>MobileWash Services</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-5">
+                            <div class="profile-card mb-5">
+                                <div class="card bg-primary shadow-soft border-light">
+                                    <div class="card-header p-4">
+                                        <img src="./assets/img/blog/carwash.jpg" class="card-img-top rounded" alt="carwash">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="h4 mb-2">Automotive Detailing</h3>
+                                        <span class="h6 font-weight-normal text-secondary mb-3">Mobile & Stationary</span>
+                                        <p class="card-text">Eco-friendly professional hand wash. Use 95% less water than conventional carwash. No water run-off/stain. 100% compliant with Federal and State environmental protection regulations.</p>
+                                    </div>
+                                </div
 
+>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-5">
+                            <div class="profile-card mb-5">
+                                <div class="card bg-primary shadow-soft border-light">
+                                    <div class="card-header p-4">
+                                        <img src="./assets/img/blog/boadwash.jpg" class="card-img-top rounded" alt="boat wash">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="h4 mb-2">Boat Wash & Seal</h3>
+                                        <span class="h6 font-weight-normal text-secondary mb-3">Mobile</span>
+                                        <p class="card-text">Professional wash, wax and seal your freshwater and saltwater boat, jetski, and other watercrafts. 100% handcrafted detailing service and eco-friendly cleaning solution.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-5">
+                            <div class="profile-card mb-5">
+                                <div class="card bg-primary shadow-soft border-light">
+                                    <div class="card-header p-4">
+                                        <img src="./assets/img/blog/atv.jpg" class="card-img-top rounded" alt="Bike/ATV/RV Detailing">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="h4 mb-2">Bike/ATV/RV Detailing</h3>
+                                        <span class="h6 font-weight-normal text-secondary mb-3">Mobile</span>
+                                        <p class="card-text">Our professionally trained detailers also take care of your Motorcycles, ATVs, and RVs.</p>
+                                        <a href="./html/pages/bike.html" class="btn btn-primary btn-block text-secondary"><span class="fas fa-plus mr-2"></span> More Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
         <div class="section section-lg pt-0">
             <div class="container">
                 <div class="row text-center justify-content-center">
@@ -647,20 +479,10 @@
                     </div>
                 </div>
                 <div class="row align-items-center">
-
-                   <!-- <div class="col-md-4 col-lg-4 text-center">
-                        <div class="card bg-primary shadow-soft border-light mb-4">
-                            <div class="card-body py-5">
-                                <img src="./assets/img/clients/signatureair.svg" class="img-fluid image-sm" alt="Signature airline logo">
-
-                            </div>
-                        </div>
-                    </div>-->
                     <div class="col-md-4 col-lg-4 text-center">
                         <div class="card bg-primary shadow-soft border-light mb-4">
                             <div class="card-body py-5">
                                 <img src="./assets/img/clients/airbnb.svg" class="img-fluid image-sm" alt="airbnb logo">
-                                
                             </div>
                         </div>
                     </div>
@@ -668,7 +490,6 @@
                         <div class="card bg-primary shadow-soft border-light mb-4">
                             <div class="card-body py-5">
                                 <img src="./assets/img/clients/paypal.svg" class="img-fluid image-sm" alt="paypal logo">
-                                
                             </div>
                         </div>
                     </div>
@@ -676,7 +497,6 @@
                         <div class="card bg-primary shadow-soft border-light mb-4">
                             <div class="card-body py-5">
                                 <img src="./assets/img/clients/ebay.svg" class="img-fluid image-sm" alt="ebay logo">
-                                
                             </div>
                         </div>
                     </div>
@@ -684,7 +504,6 @@
                         <div class="card bg-primary shadow-soft border-light mb-4">
                             <div class="card-body py-5">
                                 <img src="./assets/img/clients/square.svg" class="img-fluid image-sm" alt="Square logo">
-                               
                             </div>
                         </div>
                     </div>
@@ -692,74 +511,71 @@
                         <div class="card bg-primary shadow-soft border-light mb-4">
                             <div class="card-body py-5">
                                 <img src="./assets/img/clients/appchurch.svg" class="img-fluid image-sm" alt="AppChurch logo">
-                    
                             </div>
                         </div>
                     </div>
-
                     <div class="col-md-4 col-lg-4 text-center">
                         <div class="card bg-primary shadow-soft border-light mb-4">
                             <div class="card-body py-5">
-                                <img src="./assets/img/clients/powerbike.svg" class="img-fluid image-sm" alt="Powerbike logo">          
+                                <img src="./assets/img/clients/powerbike.svg" class="img-fluid image-sm" alt="Powerbike logo">
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
-    </div>   
-    <p><h5 class="display-5 mb-3 text-center font-weight-bold">Booking: <span class="text-success font-weight-bold">(619) 800-8239</span></h5>
-        <br></p>
-
+        </div>
+        <p>
+            <h5 class="display-5 mb-3 text-center font-weight-bold">Booking: <span class="text-success font-weight-bold obfuscated-phone"></span></h5>
+            <br>
+        </p>
         <!-- End of section -->
-        
     </main>
     <div class="container">
         <a href="https://forms.gle/hLLvMyccznrAWVFUA" target="_blank" class="d-flex justify-content-center">
-        <button class="btn btn-facebook" type="button"><span class="mr-1"><span class="fas fa-user-plus mr-2 text-success"></span></span> <span class="font-weight-bold text-success font-weight-bold">Sign up to Claim $39 Credit</span></button>
-        </div>
+            <button class="btn btn-primary" type="button"><span class="mr-1"><span class="fas fa-user-plus mr-2 text-success"></span></span> <span class="font-weight-bold text-success">Sign up to Claim $39 Credit</span></button>
+        </a>
         <br>
         <br>
         <br>
         <br>
-    <footer class="d-flex pb-5 pt-6 pt-md-7 border-top border-light bg-primary">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <a href="http://ecomobilewash.com" target="_blank" class="d-flex justify-content-center">
-                    <img src="./assets/img/brand/dark.png" height="25" class="mb-3" alt="EcoMobileWash Logo">
-                </a>
-            <div class="d-flex text-center justify-content-center align-items-center" role="contentinfo">
-                <p class="font-weight-normal font-small mb-0">Copyright ©<span class="text-success font-weight-bold"> Eco</span>MobileWash <br>(a WeMake, Corp. Company)<br>
-                    <span class="current-year">2023</span>. All rights reserved.</p>
+        <footer class="d-flex pb-5 pt-6 pt-md-7 border-top border-light bg-primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <a href="http://ecomobilewash.com" target="_blank" class="d-flex justify-content-center">
+                            <img src="./assets/img/brand/dark.png" height="25" class="mb-3" alt="EcoMobileWash Logo">
+                        </a>
+                        <div class="d-flex text-center justify-content-center align-items-center" role="contentinfo">
+                            <p class="font-weight-normal font-small mb-0">Copyright ©<span class="text-success font-weight-bold"> Eco</span>MobileWash <br>(a WeMake, Corp. Company)<br>
+                                <span class="current-year">2022-2024</span>. All rights reserved.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div> 
-</footer>
+        </footer>
 
-    <!-- Core -->
-<script src="./vendor/jquery/dist/jquery.min.js"></script>
-<script src="./vendor/popper.js/dist/umd/popper.min.js"></script>
-<script src="./vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="./vendor/headroom.js/dist/headroom.min.js"></script>
+        <!-- Core -->
+        <script src="./vendor/jquery/dist/jquery.min.js"></script>
+        <script src="./vendor/popper.js/dist/umd/popper.min.js"></script>
+        <script src="./vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="./vendor/headroom.js/dist/headroom.min.js"></script>
 
-<!-- Vendor JS -->
-<script src="./vendor/onscreen/dist/on-screen.umd.min.js"></script>
-<script src="./vendor/nouislider/distribute/nouislider.min.js"></script>
-<script src="./vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
-<script src="./vendor/waypoints/lib/jquery.waypoints.min.js"></script>
-<script src="./vendor/jarallax/dist/jarallax.min.js"></script>
-<script src="./vendor/jquery.counterup/jquery.counterup.min.js"></script>
-<script src="./vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
-<script src="./vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-<script src="./vendor/prismjs/prism.js"></script>
+        <!-- Vendor JS -->
+        <script src="./vendor/onscreen/dist/on-screen.umd.min.js"></script>
+        <script src="./vendor/nouislider/distribute/nouislider.min.js"></script>
+        <script src="./vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+        <script src="./vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+        <script src="./vendor/jarallax/dist/jarallax.min.js"></script>
+        <script src="./vendor/jquery.counterup/jquery.counterup.min.js"></script>
+        <script src="./vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
+        <script src="./vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+        <script src="./vendor/prismjs/prism.js"></script>
 
-<script async defer src="https://buttons.github.io/buttons.js"></script>
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
 
-<!-- Neumorphism JS -->
-<script src="./assets/js/neumorphism.js"></script>
+        <!-- Neumorphism JS -->
+        <script src="./assets/js/neumorphism.js"></script>
 </body>
 
 </html>

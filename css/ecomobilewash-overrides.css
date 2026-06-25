@@ -1,0 +1,143 @@
+/* Eco Mobile Wash — layout & responsive overrides */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar-main .navbar-brand img {
+  max-height: 2.5rem;
+  width: auto;
+}
+
+.navbar-toggler {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 0.35rem 0.55rem;
+}
+
+.navbar-toggler:focus {
+  outline: 2px solid #18634b;
+  outline-offset: 2px;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-main .navbar-collapse {
+    margin-top: 0.75rem;
+    padding: 0.75rem 0 0.5rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+  }
+
+  .navbar-main .nav-link {
+    padding: 0.65rem 0;
+  }
+
+  .navbar-main .btn {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+}
+
+/* Hero / booking phone */
+.ev-booking-banner {
+  font-size: clamp(1.1rem, 3.5vw, 2rem);
+  text-align: center;
+  margin-bottom: 1.25rem;
+  word-break: break-word;
+}
+
+@media (min-width: 768px) {
+  .ev-booking-banner {
+    text-align: right;
+  }
+}
+
+/* Add-on services header + CTA */
+.ev-addon-header {
+  width: 100%;
+  gap: 1rem;
+  padding: 0 0.25rem;
+}
+
+.ev-addon-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  min-width: 11rem;
+  padding: 0.65rem 1.5rem;
+}
+
+@media (max-width: 767.98px) {
+  .ev-addon-header {
+    text-align: center;
+  }
+
+  .ev-addon-cta {
+    width: 100%;
+    max-width: 20rem;
+  }
+}
+
+/* Service cards */
+.ev-service-list {
+  margin: 0 0 1rem;
+  padding-left: 1.25rem;
+}
+
+.ev-service-list li {
+  margin-bottom: 0.35rem;
+}
+
+.profile-card .card-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.profile-card .card-body .btn {
+  margin-top: auto;
+}
+
+.profile-card .card {
+  height: 100%;
+}
+
+/* Detailing sites grid */
+.ev-site-card .card-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Trusted by logos */
+.image-sm {
+  max-height: 3.5rem;
+  width: auto;
+}
+
+@media (max-width: 575.98px) {
+  .image-sm {
+    max-height: 2.75rem;
+  }
+}
+
+/* Footer */
+footer .container {
+  width: 100%;
+}
+
+/* Remove template spacing hacks where possible */
+.ev-trusted-section {
+  padding-top: 0;
+}
+
+.ev-final-booking {
+  text-align: center;
+  margin: 2rem 0 0;
+  font-size: clamp(1.25rem, 4vw, 1.75rem);
+}

@@ -212,3 +212,11 @@ footer .container {
 .ev-compare td {
   vertical-align: middle;
 }
+
+/* Open mobile menu: the theme shows it as a full-screen panel; keep its side padding (the rule above removed it) */
+@media (max-width: 991.98px) {
+  .navbar-main .navbar-collapse.show,
+  .navbar-main .navbar-collapse.collapsing {
+    padding: 1.5rem;
+  }
+}

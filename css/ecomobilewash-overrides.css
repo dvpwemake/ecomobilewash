@@ -141,3 +141,96 @@ footer .container {
   margin: 2rem 0 0;
   font-size: clamp(1.25rem, 4vw, 1.75rem);
 }
+
+/* Membership page */
+.ev-membership-lead {
+  max-width: 44rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ev-plan-card {
+  height: 100%;
+}
+
+.ev-plan-card .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.ev-plan-eyebrow {
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.ev-plan-price {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.ev-plan-price .amount {
+  font-size: clamp(2rem, 6vw, 2.75rem);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.ev-plan-price .per {
+  color: #4b5563;
+}
+
+.ev-plan-alt {
+  margin-bottom: 1.25rem;
+}
+
+.ev-plan-benefits {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 1.5rem;
+}
+
+.ev-plan-benefits li {
+  display: flex;
+  gap: 0.65rem;
+  margin-bottom: 0.65rem;
+}
+
+.ev-plan-benefits .fas {
+  color: #18634b;
+  margin-top: 0.25rem;
+  flex: 0 0 1.1rem;
+}
+
+.ev-plan-cta {
+  margin-top: auto;
+}
+
+.ev-compare th,
+.ev-compare td {
+  vertical-align: middle;
+}
+
+/* Open mobile menu: the theme shows it as a full-screen panel; keep its side padding (the rule above removed it) */
+@media (max-width: 991.98px) {
+  .navbar-main .navbar-collapse.show,
+  .navbar-main .navbar-collapse.collapsing {
+    padding: 1.5rem;
+  }
+}
+
+/* Membership card images */
+.ev-plan-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+/* Images carry width/height attributes (to stop layout shift); the displayed height still follows the width */
+img[width][height] {
+  height: auto;
+}

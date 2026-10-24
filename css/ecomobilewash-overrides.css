@@ -229,3 +229,8 @@ footer .container {
   aspect-ratio: 16 / 9;
   object-fit: cover;
 }
+
+/* Images carry width/height attributes (to stop layout shift); the displayed height still follows the width */
+img[width][height] {
+  height: auto;
+}
